@@ -4,6 +4,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 18px;
       }
 
 
@@ -14,7 +15,7 @@ header{
 }
 
 header h1{
-    
+    color: #2b2f36;
 }
 
 header img{
@@ -23,11 +24,39 @@ header img{
     border: 10px solid whitesmoke;
 }
 
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
 main h2{
-    color:blueviolet;
+    color:#2b2f36;
 }
 
 main img{
     align-content: center;
     width: 500px;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    color: violet;
+}
+
+footer{
+    text-align: center;
+    background-color: #483a94;
+    padding: 25px;
+}
+
+footer p{
+    margin: 0;
 }
