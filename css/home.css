@@ -60,3 +60,10 @@ footer{
 footer p{
     margin: 0;
 }
+
+p.caption{
+    color: #4e4e4e;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 0;
+}
